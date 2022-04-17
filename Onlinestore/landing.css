@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+section{
+    position: relative;
+    width: 100%;
+    min-height: 50vh;
+    padding: 100px;
+    display: flex;
+    
+    align-items: center;
+background: rgb(72, 29, 29);
+transition: 0.5s;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(68, 13, 13)
+}
+header.logo{
+    position: relative;
+    max-width: 80px;
+
+}
+header ul{
+    position: relative;
+    display: flex;
+}
+header ul li{
+    list-style: none;
+
+}
+header ul li a{
+    display: inline-block;
+    color: #fff;
+    font-weight: 400;
+    margin-left: 40px;
+
+}
+content{
+
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+content.textbox{
+    position: relative;
+    max-width: 600px;
+}
+content.textbox h1 span{
+
+    font-size: 2em;
+
+}
+content .textbox p{
+    color: aquamarine;
+}
+.content .textbox h1{
+
+    color: #fff;
+    font-size: 4em;
+    line-height: 1.5em;
+    font-weight: 900;
+    text-transform: uppercase;
+
+    
+}
+.content.textbox.p{
+    color: aquamarine;
+}
+a{
+
+    display: inline-block;
+    margin-top: 20px;
+    padding: 3px 20px;
+    background: rgb(104, 48, 5);
+    color: #111;
+    border-radius: 40px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.content.imgbox{
+max-width: 260px;
+
+
+}
+.thumb.li{
+
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+.thumb li:hover{
+    transform: translateY(-15px);
+}
+.thumb li img{
+    max-width: 40px;
+
+
+}

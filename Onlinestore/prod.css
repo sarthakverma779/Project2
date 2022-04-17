@@ -1,0 +1,49 @@
+.container{
+
+    margin-top: 50px;
+    background: burlywood;
+}
+.newarrival{
+    text-align: right;
+
+    background: green;
+    width: 50px;
+    color: whitesmoke;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.col-md-7
+{
+    color: black;
+
+}
+.stars{
+    height: 40px;
+}
+.Price{
+
+    color: brown;
+    font-size: 1rem;
+    font-weight: bold;
+    padding-top: 20px;
+    margin: 1rem ;
+}
+.Last-Price{
+
+    color: red;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+input{
+    border: 1px solid;
+    font-weight: bold;
+    height: 32px;
+    text-align: center;
+    width: 30px;
+}
+ .btn{
+
+    color: green;
+ }
